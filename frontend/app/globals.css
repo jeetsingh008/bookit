@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-white h-screen text-[#161616];
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply py-1.5 px-3 bg-[#FFD643] text-[#161616] font-semibold rounded-sm text-sm hover:bg-yellow-500/80 focus:outline-none;
+  }
+
+  .tag {
+    @apply bg-[#D6D6D6] rounded-sm text-[#161616];
+  }
+
+  .searchbar {
+    @apply bg-[#EDEDED] rounded-sm placeholder:text-[#161616] focus:outline-none;
+  }
+
+  .bg-primary {
+    @apply bg-[#FFD643];
+  }
+
+  .btn-secondary {
+    @apply py-1.5 px-4 bg-[#161616] text-white rounded-md text-sm hover:bg-gray-800/80 focus:outline-none;
+  }
+}
