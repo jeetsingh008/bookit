@@ -116,9 +116,7 @@ function ExperienceCard({ experience }: { experience: ExperienceType }) {
           <span className="text-lg font-semibold text-primary">
             {priceInRupees}
           </span>
-          <button className="py-2 px-4 bg-primary text-black font-semibold rounded-md shadow-sm text-sm group-hover:bg-primary-dark">
-            View Details
-          </button>
+          <button className="btn-primary">View Details</button>
         </div>
       </div>
     </Link>
