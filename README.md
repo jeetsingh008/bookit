@@ -2,7 +2,7 @@
 
 > _Suggestion: Replace the placeholder below with a real screenshot of your app's home page._
 
-![BookIt Screenshot](<img width="1505" height="1139" alt="Screenshot 2025-10-31 101137" src="https://github.com/user-attachments/assets/8c43911d-a7b1-4960-92d6-2aec9960d45a" />
+![BookIt Screenshot](<img width="2874" height="1429" alt="Screenshot 2025-11-01 121612" src="https://github.com/user-attachments/assets/6f182e99-1e64-4eb4-95c8-c4bd81e24483" />
 )
 
 ---
