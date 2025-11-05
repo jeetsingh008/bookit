@@ -2,15 +2,13 @@
 
 > _Suggestion: Replace the placeholder below with a real screenshot of your app's home page._
 
-![BookIt Screenshot](ADD_YOUR_SCREENSHOT_LINK_HERE)
+![BookIt Screenshot](<img width="1505" height="1139" alt="Screenshot 2025-10-31 101137" src="https://github.com/user-attachments/assets/8c43911d-a7b1-4960-92d6-2aec9960d45a" />
+)
 
 ---
 
 ## 🚀 **Live Demo Links**
-
-- **Frontend (Vercel):** [ADD YOUR VERCEL LINK HERE]  
-- **Backend (Render):** [ADD YOUR RENDER LINK HERE]
-
+ https://bookit-delta-flame.vercel.app/  
 ---
 
 ## ✨ **Project Overview**
