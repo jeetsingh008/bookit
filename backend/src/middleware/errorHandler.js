@@ -12,7 +12,7 @@ const errorHandler = (err, req, res, next) => {
     });
   }
 
-  console.error("💥 UNHANDLED ERROR:", err.stack);
+  console.error("Unhandled Error:", err.stack);
 
   return res.status(500).json({
     success: false,

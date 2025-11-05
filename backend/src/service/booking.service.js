@@ -82,9 +82,9 @@ export const createNewBooking = async (bookingData) => {
     return newBooking;
   } catch (error) {
     await session.abortTransaction();
-    // --- THIS IS THE MOST IMPORTANT LINE ---
-    console.error("💥 ORIGINAL BOOKING ERROR:", error);
-    // --- THIS LINE MUST BE IN YOUR SAVED FILE ---
+    
+    console.error(" ORIGINAL BOOKING ERROR:", error);
+    
 
     if (error instanceof ApiError) {
       throw error;

@@ -28,7 +28,7 @@ const importData = async () => {
     await Slot.insertMany(slotsToCreate);
     await PromoCode.insertMany(promoCodes);
 
-    console.log("✅ Data successfully seeded!");
+    console.log("Data successfully seeded!");
     process.exit();
   } catch (error) {
     console.error("Error seeding data:", error);

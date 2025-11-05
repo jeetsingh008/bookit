@@ -12,7 +12,6 @@ const bookingSchema = new Schema(
       ref: "Slot",
       required: true,
     },
-    // We use userName to match the service
     fullName: {
       type: String,
       required: true,
@@ -28,8 +27,6 @@ const bookingSchema = new Schema(
       type: String,
       default: null,
     },
-    // --- THIS IS THE FIX ---
-    // The service is sending these two fields, not `price`.
     originalPrice: {
       type: Number,
       required: true,
@@ -38,7 +35,6 @@ const bookingSchema = new Schema(
       type: Number,
       required: true,
     },
-    // --- END FIX ---
     status: {
       type: String,
       enum: ["confirmed", "pending", "cancelled"],

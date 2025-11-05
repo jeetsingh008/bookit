@@ -5,9 +5,8 @@ import promoRouter from "./promo.route.js";
 
 const router = Router();
 
-// Mount the feature routers
-router.use("/experiences", experienceRouter); // All /experiences routes
-router.use("/bookings", bookingRouter); // All /bookings routes
-router.use("/promo", promoRouter); // All /promo routes
+router.use("/experiences", experienceRouter);
+router.use("/bookings", bookingRouter); 
+router.use("/promo", promoRouter); 
 
 export default router;

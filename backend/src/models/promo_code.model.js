@@ -5,9 +5,9 @@ export const promoCodeSchema = new Schema(
     code: {
       type: String,
       required: true,
-      unique: true, // Each code must be unique
+      unique: true, 
       trim: true,
-      uppercase: true, // Store codes consistently
+      uppercase: true, 
     },
     discountType: {
       type: String,
@@ -24,7 +24,7 @@ export const promoCodeSchema = new Schema(
     },
     expiryDate: {
       type: Date,
-      default: null, // null means it never expires
+      default: null, 
     },
   },
   { timestamps: true }
